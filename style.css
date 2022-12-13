@@ -1,0 +1,39 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(45deg, #fafafa,#ffb283) ;
+}
+
+.container{
+    position: relative;
+    background: #fafafa;
+    padding: 25px 50px 35px;
+    border-radius: 20px;
+    box-shadow:0 5px 10px  rgba(0, 0, 0, 0.5);
+}
+.container h3{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: #b8612c;
+}
+.container .stars{
+    color: #e6e6e6;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.stars i{
+    transition: color 0.2s ease;
+}
+.mark{
+    color: #b8612c;
+}
